@@ -1,3 +1,20 @@
++++
+author = "Morgan Senechal"
+title = "Needle StarterKit: The Ultimate Tool for Accelerating Your Graph App Projects"
+date = "2023-11-08"
+description = "Article on how to use a Reactjs StarterKit I built for Neo4j"
+tags = [
+    "reactjs",
+    "neo4j",
+]
+categories = [
+    "reactjs",
+    "neo4j",
+]
+series = ["Neo4j-Needle-StarterKit"]
+aliases = ["Neo4j-Needle-StarterKit"]
+image = "assets/FeaturedImg.jpg"
++++
 Needle StarterKit: The Ultimate Tool for Accelerating Your Graph App Projects
 =============================================================================
 

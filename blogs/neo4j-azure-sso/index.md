@@ -1,7 +1,25 @@
-How to Integrate Neo4j With SSO on Azure — One Login to Rule Them All
-=====================================================================
++++
+author = "Morgan Senechal"
+title = "How to Integrate Neo4j With SSO on Azure — One Login to Rule Them All"
+date = "2023-08-17"
+description = "Guide on how to configure SSO for Neo4j on Azure"
+tags = [
+    "neo4j",
+    "sso",
+    "security",
+    "azure",
+]
+categories = [
+    "neo4j",
+    "sso",
+    "azure",
+]
+series = ["Guide"]
+aliases = ["Neo4j-AAD-SSO"]
+image = "assets/Diagram.png"
++++
 
-![FeaturedImg](assets/FeaturedImg.png)
+![Introduction](assets/FeaturedImg.png)
 
 In your journey to exploring graph databases and getting valuable information, you will want to move your graph into production and share access to your graph with colleagues.
 
@@ -341,7 +359,7 @@ CREATE (:Organization:EMEA)-[:HAS_EMPLOYEE]->(:Person:EMEA {name: "Tom"}),
 
 For this example, we will be using this simple match query, returning the name of the employees.
 
-```
+```sql
 MATCH (o:Organization)-[:HAS_EMPLOYEE]->(p:Person) RETURN p.name
 ```
 
