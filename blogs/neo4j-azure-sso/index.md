@@ -107,7 +107,7 @@ Select the supported account type that fits your needs. For this example, I will
 The type for Neo4j Browser is a Single Page Application, and your redirect URI should look like this:
 
 ```
-http://localhost:7474/browser/?idp\_id=azure&auth\_flow\_step=redirect\_uri
+http://localhost:7474/browser/?idp_id=azure&auth_flow_step=redirect_uri
 ```
 
 *   Replace **_http://localhost:7474/browser/_** according to your server. This must be your Neo4j Browser URL.
@@ -255,7 +255,7 @@ from neo4j import GraphDatabase, bearer_auth
 config = json.load(open(sys.argv[1]))  
   
 app = msal.ConfidentialClientApplication(  
-    config["client\_id"], authority=config["authority"],  
+    config["client_id"], authority=config["authority"],  
     client_credential=config["secret"],  
     )  
   
@@ -381,7 +381,7 @@ records, summary, keys = driver.execute_query(
 
 Result:
 
-> \[<Record p.name=’Tom’>, <Record p.name=’Sabrina’>, <Record p.name=’Lee’>\]
+> `<Record p.name=’Tom’>, <Record p.name=’Sabrina’>, <Record p.name=’Lee’>`
 
 🎉 We can see all 3 employees as expected.
 

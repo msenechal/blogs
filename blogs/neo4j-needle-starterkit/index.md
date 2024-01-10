@@ -117,7 +117,7 @@ export async function setDriver (connectionURI, username, password){
       localStorage.setItem("neo4j.connection", JSON.stringify({"uri":connectionURI, "user":username, "password":password}))  
       return true  
     } catch (err){  
-      console.log(\`Connection error\\n${err}\\nCause: ${err.cause}\`)  
+      console.log(`Connection error\n${err}\nCause: ${err.cause}`)
       return false  
     }  
   }  
@@ -127,7 +127,7 @@ export async function disconnect (){
         driver.close();  
         return true;  
     } catch (err){  
-    console.log(\`Disconnection error\\n${err}\\nCause: ${err.cause}\`)  
+    console.log(`Disconnection error\n${err}\nCause: ${err.cause}`)
       return false  
     }  
 }
