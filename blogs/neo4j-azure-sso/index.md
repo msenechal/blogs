@@ -415,6 +415,3 @@ If you encounter issues while setting up SSO with Neo4j, Neo4j user apps (Browse
 *   Reach out on our [Neo4j Discord](https://neo4j.com/developer/discord/) or our [community forum](https://community.neo4j.com/).
 *   For customers, you can also create a support ticket on our [support](http://support.neo4j.com/).
 *   Additionally, if you need one of our experts you can consult our website [Neo4j Professional Services](https://neo4j.com/professional-services/) or reach out directly at [ps\_emea\_pmo@neotechnology.com](mailto:ps_emea_pmo@neotechnology.com).
-
-Additional Resources
-====================

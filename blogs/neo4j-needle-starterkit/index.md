@@ -204,6 +204,3 @@ Now that you’re familiar with the basics of the template, it’s time to explo
 *   Run your first Cypher query through the driver with a callback function. When you receive the data, display it as a text or table.
 *   From the step above, let’s make it a bit more visual by using a [visualization library](https://medium.com/neo4j/search?q=visualisation) and rendering your graph data in your app.
 *   Enhance the application security by adding an authentication mechanism.
-
-Additional Resources
-====================
