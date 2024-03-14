@@ -7,4 +7,4 @@ Repository listing a compilation of my previous and future developer blogs.
 - [Needle StarterKit: The Ultimate Tool for Accelerating Your Graph App Projects](blogs/neo4j-needle-starterkit/index.md)
   - [medium](https://medium.com/neo4j/needle-starterkit-the-ultimate-tool-for-accelerating-your-graph-app-projects-1eb175064faf)
 - [Needle StarterKit 2.0: Templates, Chatbot, and more!](blogs/neo4j-needle-starterkit2-0/index.md)
-  - [medium](https://medium.com/neo4j/needle-starterkit-the-ultimate-tool-for-accelerating-your-graph-app-projects-1eb175064faf)
+  - Medium WIP
